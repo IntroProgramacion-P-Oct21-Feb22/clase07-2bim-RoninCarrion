@@ -18,6 +18,8 @@ public class Ejemplo01 {
         int resultado = valor1 / valor2;
         
         System.out.printf("Resultado %d", resultado);
+        System.out.println("Continuamos");
+        
                
     }
 }

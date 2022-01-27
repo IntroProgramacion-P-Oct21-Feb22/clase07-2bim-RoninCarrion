@@ -26,6 +26,9 @@ public class Ejemplo09 {
                throw new Exception("Número negativos");
             }
             int resultado = valor1 / valor2;
+            if(resultado == 3){
+            throw new Exception("Este programa no acepta el numero 3");
+            }
             System.out.printf("Resultado %s\n", resultado);
         } catch (ArithmeticException e) {
             System.out.printf("(ArithmeticException) Ocurrió una "
